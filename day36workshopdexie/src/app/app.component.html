@@ -1,0 +1,16 @@
+<p>
+  <mat-toolbar color="primary">
+
+    <mat-toolbar-row>
+      <button mat-icon-button class="example-icon favorite-icon" (click)="goHome()" aria-label="Example icon-button with heart icon">
+        <mat-icon>home</mat-icon>
+      </button>
+      <span>My Weather App</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon" (click)="goAddCity()" aria-label="Example icon-button with share icon">
+        <mat-icon>add</mat-icon>
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</p>
+<router-outlet></router-outlet>
